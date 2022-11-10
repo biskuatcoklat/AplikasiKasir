@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="Aplikasi.View.Konsumen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Aplikasi.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Style="{StaticResource Page_Style}">
+    <Grid Margin="15">
+        <Border CornerRadius="0,20,20,0" Margin="66,78,-66,-78">
+            <Border.Background>
+                <ImageBrush ImageSource="/Images/customer_page.png"
+                            Stretch="None" />
+            </Border.Background>
+        </Border>
+
+        <TextBlock Text="ID Konsumen  :"
+                   Foreground="#DBDBDB"
+                   FontSize="12"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="/Fonts/#Rubik Medium"
+                   Margin="680,148,0,0" />
+
+        <TextBlock Text="{Binding CustomerID}"
+                   Foreground="#CED565"
+                   FontSize="12"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="/Fonts/#Rubik Medium"
+                   Margin="160,138,0,0" />
+    </Grid>
+</UserControl>
