@@ -9,8 +9,8 @@
 
         <Border   Margin="-60,-80,-289,-175">
 
-            <Image Source="/Images/bg.jpeg"
-                   Stretch="Fill" />
+            <Image Source="/Images/Frame.png"
+                   Stretch="Fill" Margin="25,19,62,27" />
 
         </Border>
     </Grid>

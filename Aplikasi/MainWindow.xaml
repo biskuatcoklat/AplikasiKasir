@@ -23,15 +23,15 @@
 
         <!--// Window Border //-->
 
-        <Border Background="#7D8F69"/>
-        
+        <Border Background="#F2E7D5"/>
+
 
         <Grid>
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="12*"/>
                 <RowDefinition Height="80*"/>
-                
+
             </Grid.RowDefinitions>
 
 
@@ -45,10 +45,10 @@
                     <ColumnDefinition Width="622" />
 
                 </Grid.ColumnDefinitions>
-                
+
             </Grid>
             <Grid Grid.Column="0" Background="#aa00ff00">
-                
+
                 <Grid.RowDefinitions>
                     <RowDefinition Height="56*"/>
                     <RowDefinition Height="58*"/>
@@ -58,12 +58,12 @@
                     <RowDefinition Height="99*"/>
                 </Grid.RowDefinitions>
             </Grid>
-            
-    
 
-            <Border Background="#557153"/>
 
-            
+
+            <Border Background="#DBC8AC"/>
+
+
 
 
 
@@ -82,23 +82,44 @@
         <Grid VerticalAlignment="Top" Width="220">
             <Grid Margin="-141,0,-132,0">
 
+                <Image Source="Images/Ziggo.png"
+                                   Style="{StaticResource Image_Style}" Height="133" Margin="216,-19,0,-84" Width="133" />
+
+
+
+
+            </Grid>
+        </Grid>
+
+        <Grid VerticalAlignment="Top" Width="220">
+            <Grid Margin="-141,0,-132,0">
+
                 <!--<Image Source="Images/img_home.png"
                                    Style="{StaticResource Image_Style}" />-->
 
-                <TextBlock Text="Toko Baju"
-                                       Style="{StaticResource Text_Style1}" Margin="119,8,0,-8" Width="328" />
+                <Grid VerticalAlignment="Top" Width="220">
+                    <Grid Margin="-141,0,-132,0">
+
+                        <!--<Image Source="Images/img_home.png"
+                                   Style="{StaticResource Image_Style}" />-->
+
+                        <Image Source="Images/img_hamburger.png"
+                                   Style="{StaticResource Image_Style}" Margin="-222,33,0,-33" RenderTransformOrigin="0.467,0.5" />
+                    </Grid>
+                </Grid>
+
 
             </Grid>
-
         </Grid>
 
         <Grid HorizontalAlignment="Left"
                   Width="228">
 
-            <Border Background="#557153" Margin="0,65,0,0"/>
+
+            <Border Background="#DFD3C3" Margin="0,96,0,0"/>
 
             <StackPanel
-                            Width="228" Margin="0,90,0,0">
+                            Width="228" Margin="0,91,0,0">
 
                 <!--// Home //-->
 
@@ -135,22 +156,6 @@
 
                 </Menu:Btn>
 
-                <!--// Produk //-->
-
-                <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding ProductsCommand}">
-
-                    <Grid>
-
-                        <Image Source="Images/img_product.png"
-                                   Style="{StaticResource Image_Style}" />
-
-                        <TextBlock Text="Produk"
-                                       Style="{StaticResource Text_Style}" />
-
-                    </Grid>
-
-                </Menu:Btn>
 
                 <!--// pemesanan //-->
 
@@ -163,6 +168,23 @@
                                    Style="{StaticResource Image_Style}" />
 
                         <TextBlock Text="Pemesanan"
+                                       Style="{StaticResource Text_Style}" />
+
+                    </Grid>
+
+                </Menu:Btn>
+
+                <!--// Produk //-->
+
+                <Menu:Btn Style="{StaticResource BtnStyle}"
+                              Command="{Binding ProductsCommand}">
+
+                    <Grid>
+
+                        <Image Source="Images/img_product.png"
+                                   Style="{StaticResource Image_Style}" />
+
+                        <TextBlock Text="Produk"
                                        Style="{StaticResource Text_Style}" />
 
                     </Grid>
@@ -211,12 +233,12 @@
 
         </Grid>
 
-        <!--<Grid Grid.Column="1">
+        <Grid Grid.Column="1">
 
             <ContentControl x:Name="Pages"
                                 Content="{Binding CurrentView}" />
 
-        </Grid>-->
+        </Grid>
 
 
 

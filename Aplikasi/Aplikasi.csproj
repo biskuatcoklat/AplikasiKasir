@@ -173,7 +173,6 @@
   <ItemGroup>
     <Resource Include="Images\bg.jpeg" />
     <Resource Include="Images\customer_page.png" />
-    <Resource Include="Images\fash 6.jpg" />
     <Resource Include="Images\home_page.png" />
     <Resource Include="Images\img_customer.png" />
     <Resource Include="Images\img_home.png" />
@@ -189,6 +188,33 @@
     <Resource Include="Images\shutdown_def.png" />
     <Resource Include="Images\shutdown_mo.png" />
     <Resource Include="Images\transaction_page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\konsumen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\konsum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\img_hamburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Ziggo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Frame konsumen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Frame_pemesanan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Frame_produk.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
